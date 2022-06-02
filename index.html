@@ -46,7 +46,7 @@
             <a href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%91%D0%B6" title="Нажми на меня" target="_blank">Посмотреть больше про ёжиков</a>
     
     <p>Переход на другую страницу сайта</p>
-    <a href="about.html">GO</a>
+    <a href="about.html">GO</a><br><br>
 
     <form action="" method="post"> <!-- Форма для заполнения, атрибуты обязательны всегда-->
 
@@ -54,37 +54,57 @@
              <input type="text" placeholder="логин" name="user_name" id="user_name"><!--Поле для ввода-->
 
         <label for="password">Введите пароль</label>
-                <input type="password" placeholder="пароль" id="password"><br>
+                <input type="password" placeholder="пароль" id="password"><br><br>
                 
         <label for="name">Введите Ваше имя</label>
-            <input type="text" placeholder="имя" id="name">
+            <input type="text" placeholder="имя" id="name"><br><br>
 
+        <label for="mail">Введите e-mail</label>
+            <input type="email" placeholder="email" id="mail"><br><br>
 
+         <label for="date">Укажите дату и время</label>
+            <input type="date" id="date">
+            <input type="time" id="time"><input type="checkbox"><br><br>
 
+        <label for="radio"> Подтвердите согласие</label>
+            <input type="radio" name="stat">
+            <input type="radio" name="stat"><br><br>
 
+            
+        <label for="file"> Загрузите файл</label>
+            <input type="file"><br><br>
 
+        <label for="submit"> Для согласия нажать</label>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить"> <br><br>
 
-
+        <label for="textarea">Обратная связь</label>
+            <textarea placeholder="Напиши"></textarea><button type="submit">Готово</button><br><br>
+        
+        <label for="select">Краткий ответ</label>
+            <select>
+                    <option disabled selected> ---</option>
+                    <option> да </option>
+                    <option> нет </option>
+                    <option> не знаю </option>
+            </select><br><br>
+        <progress max="100" value="50">Заполнено на 50%</progress>
+        <details>
+            <summary>Узнать больше</summary>
+                Загрузка не окнчена
+        </details>
 
     </form>
 
             <a name="bottom"></a> <br>
              <a href="mailto:elizabethmitsina@gmail.com"> Написать на почту </a> <br> <!-- Написать письмо указ адресу-->
     
-             <address>Молодечно, Беларусь</address>
+            
 
             
-            <div> Просто <span>так</span></div>
-    
-
-
-
-
-
-
-
-
-
+            <div>*------- <span>--</span></div>
+    <hr>
+ <address>Молодечно, Беларусь</address>
    <script scr="javascript/main.js"> </script>   <!--Файл джаваскрипт, всегда добавлять перед концом боди, чтобы быстрее грузился веб-->
 </body>
 </html>
